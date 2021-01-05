@@ -2,11 +2,16 @@
 using namespace std;
 
 void printO(int Row, int Column){
-	for(int j = 1; j<=Row; j++){
-		for(int i=1; i<=Column; i++){
-		cout << "O";
+	if(Row>0 && Column > 0){
+		for(int j = 1; j<=Row; j++){
+			for(int i=1; i<=Column; i++){
+			cout << "O";
+			}
+			cout << endl;
 		}
-		cout << endl;
+	}
+	else{
+		cout << "Invalid input";
 	}
 }
 
