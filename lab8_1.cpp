@@ -40,10 +40,10 @@ int main(){
 	Total = PrevBalance + Interest;
 												
 		cout << setw(13) << left << Interest; 			// Printed Value Interest
-		cout << setw(13) << left << Total; 				// Printed Value Total
+		cout << setw(13) << left << Total; 			// Printed Value Total
 	if(Total - Payment <=0){
 		cout << setw(13) << left << Total; 	
-	}													// Printed Value Payment
+	}								// Printed Value Payment
 	else{
 		cout << setw(13) << left << Payment; 	
 		}		
