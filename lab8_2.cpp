@@ -1,7 +1,14 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+void printO(int Row, int Column){
+	for(int j = 1; j<=Row; j++){
+		for(int i=1; i<=Column; i++){
+		cout << "O";
+		}
+		cout << endl;
+	}
+}
 
 int main(){
 	
